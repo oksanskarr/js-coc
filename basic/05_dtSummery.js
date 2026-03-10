@@ -23,3 +23,27 @@ let myFunction = function(){
     console.log("hellO world");
     
 }
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Premitive Type ==> Stack Memory
+// NonPremitive Type ==> Heap Memory
+
+let name = "sanskar";
+let anotherName = name;
+
+anotherName = "jerry";
+console.log(name);
+console.log(anotherName);
+
+let userOne ={
+    email :"sanskar@gmail.com",
+    password : "sankfsl"
+}
+ let userTwo = userOne
+
+ userTwo.email  = "jerry@gmail.com"
+ console.log(userOne.email);
+ console.log(userTwo.email);
+ 
+ 
